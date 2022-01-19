@@ -1,8 +1,13 @@
 import _ from 'lodash';
 import './style.css';
 import Icon from './image.jpg';
+import printMe from './print.js';
+
+
+
 
 function component() {
+  printMe;
     const element = document.createElement('div');
   
     // Lodash, now imported by this script
